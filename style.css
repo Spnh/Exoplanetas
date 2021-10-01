@@ -1,0 +1,275 @@
+
+
+body{
+	height: auto;
+	color: #CCCC;
+	font-family: monospace;
+	background-color: #212121;
+}
+
+fieldset{
+	border: 0;
+	
+}
+
+h1{
+	font-size: 30px;
+
+}
+
+label{
+	font-size: 20px;
+}
+
+
+input{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	border: 0px;
+	height: 30px;
+	width: 200px;
+	background-color: #333;
+	color: white;
+}
+
+select{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	height: 30px;
+	width: 200px;
+	background-color: #333;
+	color: white;
+	border: 0;	
+}
+
+button{
+	height: 40px;
+	width: 200px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background-color: #424242;
+	color: white;
+	border: 0;
+
+}
+
+button:active{
+	border-top: 1px black solid;
+	background-color: #333;
+}
+
+textarea{
+	width: 195px;
+	height: 60px;
+	margin-top: -5px;
+	border-radius: 5px;
+	border: 0;
+	background-color: #333;
+	color: white;
+
+
+}
+
+input:focus, textarea:focus, select:focus{
+	background-color: #808080;
+	color: black;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	width: 200px;
+}
+
+
+#container{
+	text-align: center;
+	margin-top: 15px;
+	border-bottom: #808080 2px solid;
+	font-family: monospace;
+
+}
+
+#dataCanto{
+	width: 40px;
+    position: absolute;
+    top: 5px;
+    right: 90px;
+}
+.botao{
+	text-align: justify;
+	margin: 0 auto;
+	margin-left: 36%;
+	width: 850px;
+	padding-top: 15px;
+}
+
+
+
+#tempoFora{
+	font-size: 15px;
+	height: 13px;
+	width: 30px;
+}
+
+#fora{
+	display: inline-block;
+	padding-top: 100px;
+}
+
+
+#Especie{
+	display: inline-block;
+	margin-top: 100px;
+}
+
+#TempoFora{
+	margin-bottom: -10px;
+}
+
+#especie{
+	height: 13px;
+	width: 30px;
+
+}
+
+.campo{
+	text-align: justify;
+	margin: 0 auto;
+	margin-left: 36%;
+	width: 850px;
+	
+}
+					/*Página 2*/
+#subtituloPag2{
+	font-weight: 80%;
+	text-decoration: underline;
+	font-size: 18px;
+
+
+}
+
+.campoPag2{
+	width: 500px;
+	margin-right: auto ;
+	margin-bottom: 50px;
+	 ;
+	
+}
+
+.introducaoPag2{
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.resto{
+font-size: 25px;
+font-weight: normal;
+}
+
+.escolhaPlanetas{
+	display: inline-block;
+	text-align: justify;
+
+}
+
+.planetas{
+	width:300px ;
+	height: 300px;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.nomePlanetas{
+	text-align: center;
+	padding-left: 39px;
+}
+
+.inputEscolhaPlanetas{
+	height: 25px;
+	width: 20px;
+	background-color: black;
+
+}
+#containerIMGs{
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+hr{
+	width: 600px;
+	border: 2px solid #424242;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+
+#introLista{
+	font-size: 25px;
+}
+
+dt{
+	font-size: 20px;
+	text-decoration: underline;
+	padding-left: 10px;
+
+}
+
+dd{
+	font-size: 18px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+#divFormPag2{
+	text-align: justify;
+	margin-top: 20px;
+
+}
+
+#mudanca{
+	margin-top: 15px;
+}
+
+#mudanca input{
+	height: 30px;
+	width: 13px;
+}
+
+#mudanca fieldset{
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+#viagem{
+	font-size: 30px;
+}
+
+#idbotao{
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+/*Inicio pag 3*/
+
+#linhaData{
+	height:1px;
+	width:100%;	
+}
+
+.campoPag3{
+	width: 500px;
+	margin-right: auto ;
+	margin-bottom: 50px;
+}
+
+
+.introducaoPag3{
+font-size: 30px;
+ font-weight: bold;
+
+}

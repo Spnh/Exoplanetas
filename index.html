@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Exoplanetas</title>
+</head>
+<body>
+	<div id="dataCanto">
+		<p id="data">Data: 231/93/2577/95741</p>
+	</div>
+	<div id="container">
+	<h1>Seja bem vindo!</h1>
+		<p>Faça seu cadastro para mudar de planeta</p>
+	</div>
+	<div id="tudo">	
+	<form>
+		<fieldset class="grupo">
+			<div class="campo">
+				<label for="nome">Nome</label>
+					<br>
+					<input id="nome" placeholder="Insira seu nome" type="text" name="nome">
+			</div>
+
+			<div class="campo">
+				<label for="sobrenome">Sobrenome</label>
+				<br>		
+					<input id="sobrenome" placeholder="Insira seu sobrenome" type="text" name="sobrenome" >
+			</div>
+		<div class="campo">
+			<label for="identificação Galática">Identificação Galática</label>
+			<br>
+				<input id="Identificacao" type="number" name="email" placeholder="Ex:0000001-00001-003">
+		</div>
+		</fieldset>
+		
+		<fieldset class="grupo">
+			<div class="campo">	
+				<label for="especie">Especie</label>
+					<br>
+					<span class="Especie"><input id="especie" type="radio" name="especie" value="hibrido">Híbrido
+					
+					<input id="especie" type="radio" name="especie">Metamorfo
+					</span><br>
+					<span class="Especie"><input id="especie"type="radio" name="especie">Humano
+					
+					<input id="especie" type="radio" name="especie">Humano criogenado
+					</span><br>
+					<input id="especie" type="radio" name="especie">Especie de fora da Via Lactea
+					
+		
+			</div>
+
+			<div class="campo">
+				<label for="planetaOrigem">Planeta de origem</label>
+				<br>
+					<select id="PlanetaOrigem">
+						<br>
+						<option selected disabled value=""></option>
+						<option>Terra</option>
+						<option>Kepler-20e</option>
+						<option>Musk-Model s</option>
+						<option>Gisele 163f</option>
+						<option>Trappist-1e</option>
+						<option>Koi-8000.01</option>
+						<option>Bezzos-Prime</option>
+
+							</select>
+					</select>
+			</div>
+
+			<div class="campo">
+				<label for="tempoFora">Por quanto tempo ficará fora da Terra?</label>
+				<br>
+					<input id="TempoFora" type="number" name="tempofora" placeholder="Insira um número">
+					<br>
+					<span class="fora"><input id="tempoFora" type="radio" name="tempo" >Anos
+					<input id="tempoFora" type="radio" name="tempo">Decadas
+					</span><br><span class="fora">
+					<input id="tempoFora" type="radio" name="tempo">séculos
+					<input id="tempoFora" type="radio" name="tempo">Milênios
+					</span>
+
+			</div>
+
+			<div class="campo">
+				<label for="motivosaida">Porque esta saindo da Terra</label>
+					<br>
+				<select id="motivoSaida">
+					<option selected disabled value=""></option>
+					<option>A trabalho</option>
+					<option>Visitar a U.C.G (União Confederativa das Galáxias)</option>
+					<option>Turismo espacial</option>
+					<option>Mudança Planetaria</option>
+					<option>Exploração Galática</option>
+				</select>
+				<br>
+				<textarea placeholder="Outro motivo:" type="text" name="outro"></textarea>
+
+			</div>
+	</fieldset>
+
+	</form>
+			<div class="botao">
+				<button class="botaoinput" type="submit" ><a href="pag2.html">Eniar Formulário</a></button>
+			</div>
+	
+	</div>
+</body>
+</html>
